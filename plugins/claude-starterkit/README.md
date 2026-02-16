@@ -1,6 +1,6 @@
 # claude-starterkit
 
-All-in-one Claude Code plugin that bundles essential skills, commands, hooks, and tools for productive team development.
+All-in-one Claude Code plugin that bundles essential skills, commands, and tools for productive development.
 
 ## Installation
 
@@ -74,21 +74,6 @@ All-in-one Claude Code plugin that bundles essential skills, commands, hooks, an
 - **GitHub MCP Server** — Repository management via MCP
 - **Explanatory Mode** — Educational insights during coding
 - **Session Bootstrap** — Automatic skill discovery on startup
-
-## Development
-
-Plugin source lives in `plugins/claude-starterkit/`. Edit skills, commands, and hooks there directly.
-
-```
-plugins/claude-starterkit/
-├── .claude-plugin/plugin.json
-├── skills/           # 24 skill directories with SKILL.md
-├── commands/         # 11 command .md files
-├── hooks/            # 7 hook scripts + hooks.json
-├── agents/           # Code reviewer agent
-├── lib/              # Shared utilities
-└── .mcp.json         # MCP server config
-```
 
 ## Credits
 
