@@ -5,16 +5,8 @@ All-in-one Claude Code plugin that bundles essential skills, commands, and tools
 ## Installation
 
 ```bash
-# Add as a marketplace
-/plugin marketplace add <username>/vyker-claude-starterkit
-
-# Install
+/plugin marketplace add Vyker6/vyker-claude-starterkit-marketplace
 /plugin install vyker-claude-starterkit
-```
-
-Or clone directly:
-```bash
-git clone https://github.com/<username>/vyker-claude-starterkit ~/.claude/skills/vyker-claude-starterkit
 ```
 
 ## What's Included
