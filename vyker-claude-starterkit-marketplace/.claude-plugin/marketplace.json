@@ -11,8 +11,8 @@
     {
       "name": "vyker-claude-starterkit",
       "source": {
-        "source": "url",
-        "url": "https://github.com/Vyker6/vyker-claude-starterkit.git"
+        "source": "github",
+        "repo": "Vyker6/vyker-claude-starterkit"
       },
       "description": "24 skills, 11 commands, 7 hooks, code reviewer agent, GitHub MCP, and automated deploy pipeline — bundled into one plugin",
       "version": "1.0.0",
