@@ -11,7 +11,7 @@ All-in-one Claude Code plugin that bundles essential skills, commands, and tools
 
 ## What's Included
 
-### Skills (18)
+### Skills (19)
 
 | Skill | Description |
 |-------|-------------|
@@ -33,6 +33,7 @@ All-in-one Claude Code plugin that bundles essential skills, commands, and tools
 | claude-md-improver | Audit and improve CLAUDE.md files |
 | vibe-security | Secure coding practices (OWASP) |
 | deploy | Automated deploy pipeline |
+| team-governance | Enforce CLAUDE.md rules as hard gates across 7 sequential checks |
 
 ### Commands
 
@@ -43,6 +44,15 @@ All-in-one Claude Code plugin that bundles essential skills, commands, and tools
 | /write-plan | Create a detailed implementation plan |
 | /revise-claude-md | Update CLAUDE.md with session learnings |
 | /deploy | Full deploy pipeline: test, debug, audit, PR, build |
+| /teampush | Run team governance pipeline: enforce CLAUDE.md rules, TDD, security, and verification gates |
+
+### Governance Hooks (automatic)
+
+| Hook | Event | What it does |
+|------|-------|-------------|
+| Branch check | Session start | Warns if on main/master branch |
+| TDD nudge | After file edit/write | Reminds to write tests for implementation files |
+| Push gate | Before `git push` / `gh pr create` | Blocks push until `/teampush` passes |
 
 ### Other Features
 
